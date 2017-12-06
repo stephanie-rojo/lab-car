@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Lab-car</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
       <!--creando encabezado-->
@@ -37,7 +37,7 @@
 
 
     <!--colocando fondo de pantalla más texto-->
-    <section class="fondo-deskatop">
+    <section class="fondo-desktop">
       <div class="container-fluid">
       <div class="row">
               <div class="col-md-5 col-md-offset-7 hidden-xs hidden-sm contenido">
@@ -148,13 +148,37 @@
               <section id="mapa">
                 <div class="container-fluid">
                   <div class="row">
-                    <div class="col-md-6 contenido4">
-                      <p class="tarifas">Tarifas</p>
-                      <p class="consulta">Consulta de tarifas</p>
+                    <div class="col-md-6 col-xs-6">
 
+
+                      <p class="tarifas">Tarifas</p>
+                      <p class="consulta">Consulta de tarifas aquí</p>
+
+                      <div class="row">
+                        <div class="col-md-12">
+                          <img class="circulo "src="assets/images/shape.png" alt="">
+                          <input type="text" class="form-control input1" placeholder="Ingrese su punto de partida">
+                        </div>
+                      </div>
+
+                      <div class="row">
+
+                        <div class="col-md-12">
+                          <img class="flecha"src="assets/images/shape2.png" alt="">
+                          <input type="text" class="form-control input2" placeholder="Ingrese su punto de partida">
+                        </div>
+
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-12">
+                          <button class="btn btn-default btn4" type="submit">¡Trazar Ruta!</button>
+                        </div>
+                      </div>
                     </div>
 
                     <div class="col-md-6">
+                      <iframe  class="mapcity"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.941608687654!2d-70.63951309999999!3d-33.41710665!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512591544421"  frameborder="0" allowfullscreen></iframe>
 
                     </div>
 

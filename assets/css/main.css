@@ -14,8 +14,8 @@ margin-bottom: -1.5em;
 
 }
 /*colocando fondo de pantalla más texto*/
-.fondo-deskatop{
-  background-image: url(../assets/images/taxi.jpg);
+.fondo-desktop{
+  background-image: url(../../assets/images/taxi.jpg);
   background-repeat: no-repeat;
   background-position: bottom 7% center;
   background-size: cover;
@@ -86,11 +86,19 @@ margin-bottom: -1.5em;
   margin-left: 2em;
 
 }
+ .continue::after, .continue::before{
+ content: " ";
+ display: inline-block;
+ width: 20%;
+ height: 0.1em;
+ background-color: #FFFFFF ;
+ margin: 1%;
+ margin-top: 1.5em;
+ margin-left: 5%;
+ margin-right: 5%;
+}
 .continue{
   color: white;
-  font-size: 1em;
-  overflow: hidden;
-  margin-left: 3em;
 }
 .btn2{
   margin-left: 1.5em;
@@ -172,7 +180,7 @@ margin-bottom: -1.5em;
 
 /*dando estilo al texto sobre la imagen*/
 #conductor{
-  background-image: url(../assets/images/conduce.jpg);
+  background-image: url(../../assets/images/conduce.jpg);
   background-repeat: no-repeat;
   background-position: top 55% center;
   background-size: cover;
@@ -208,4 +216,62 @@ margin-bottom: -1.5em;
 /*dando estilo a mapa*/
 #mapa{
     background-color: #F7B617;
+}
+.tarifas{
+  color: white;
+  font-size: 1.6em;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.consulta{
+  color: white;
+  font-size: 1.2em;
+  margin-left: 2.7em;
+}
+.circulo{
+  margin-left: 3em;
+  display: inline-block;
+}
+.input1{
+  width: 50%;
+  margin-left: 1em;
+  border: 0.1em solid white;
+  border-radius: 0.5em;
+  background-color: #F7B617;;
+  display: inline-block;
+}
+.input1::placeholder{
+  color: white;
+}
+.flecha{
+  margin-left: 3em;
+  margin-top: 0.1em;
+  display: inline-block;
+}
+.input2{
+  width: 50%;
+  color: white;
+  margin-left: 1em;
+  margin-top: 1em;
+  border: 0.1em solid white;
+  border-radius: 0.5em;
+  background-color: #F7B617;
+  display: inline-block;
+}
+.input2::placeholder{
+  color: white;
+}
+.btn4{
+  width: 8em;
+  font-size: 1.2em;
+  margin-left: 8em;
+  margin-top:1em;
+}
+.mapcity{
+  width: 28em;
+  height: 25em;
+  margin-left:7em;
+  padding: 0.5em;
+  margin-top:1em;
+  border: 0.1em solid white;
 }
